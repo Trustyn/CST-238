@@ -1,4 +1,4 @@
-![Opening Image](/OpeningSeq.png)
+![Opening Image](https://github.com/chadgreene/CST328/blob/master/OpeningSeq.PNG)
 
 **strong** License:
 The MIT License (MIT)
