@@ -1,6 +1,6 @@
 ![Opening Image](https://github.com/chadgreene/CST328/blob/master/OpeningSeq.PNG)
 
-**strong** License:
+**License:**
 The MIT License (MIT)
 Copyright (c) 2016 Chad Greene
 
