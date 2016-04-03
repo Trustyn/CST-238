@@ -25,7 +25,7 @@ There will be 2 deliverables for the application the first will be an executable
 1. Allow AI more flexability
 1. Add thumb controls for android 
 
-#**License:**
+#**License**
 The MIT License (MIT)
 Copyright (c) 2016 Chad Greene
 
