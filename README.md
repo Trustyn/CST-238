@@ -14,19 +14,19 @@ I will be using the Unity tutorial Space Shooter as a base and extending the cap
 There will be 2 deliverables for the application the first will be an executable for PC's.  Second an Android APK will be provided for Android powered devices.
 
 #**Contribution Guidelines**
-Chad Greene
-Branden Alder
+1. Chad Greene
+1. Branden Alder
 
 #**Bugs and TODO list**
-Add splash screens for Entry, Exit and GameOver
-Add Power up collectors for player
-Add new levels
-Add new gun upgrades and weapons fire
-Allow AI more flexability
-Add thumb controls for android 
+1. Add splash screens for Entry, Exit and GameOver
+1. Add Power up collectors for player
+1. Add new levels
+1. Add new gun upgrades and weapons fire
+1. Allow AI more flexability
+1. Add thumb controls for android 
 
 #**Credits**
-Stewart Markup Sucks
+Stewart "Markup Sucks!!"
 
 #**License:**
 The MIT License (MIT)
