@@ -1,22 +1,22 @@
 ![Opening Image](https://github.com/chadgreene/CST328/blob/master/OpeningSeq.PNG)
 
-**Description**
+#**Description**
 Space Shooter is a top down shooter similar to Asteroids.  A constant barrage of meteorites and enemy spaceships are sent at the player with a single mission to destroy. 
 
-**Technologies**
+#**Technologies**
 I will be using the Unity tutorial Space Shooter as a base and extending the capabilities to conform to the standards of the class
 
-**Screenshots**
+#**Screenshots**
 ![Gun Fire](https://github.com/chadgreene/CST328/blob/master/guns.PNG)
 
-**Installation Instructions**
+#**Installation Instructions**
 There will be 2 deliverables for the application the first will be an executable for PC's.  Second an Android APK will be provided for Android powered devices.
 
-**Contribution Guidelines**
+#**Contribution Guidelines**
 Chad Greene
 Branden Alder
 
-**Bugs and TODO list**
+#**Bugs and TODO list**
 Add splash screens for Entry, Exit and GameOver
 Add Power up collectors for player
 Add new levels
@@ -24,10 +24,10 @@ Add new gun upgrades and weapons fire
 Allow AI more flexability
 Add thumb controls for android 
 
-**Credits**
+#**Credits**
 Stewart Markup Sucks
 
-**License:**
+#**License:**
 The MIT License (MIT)
 Copyright (c) 2016 Chad Greene
 
