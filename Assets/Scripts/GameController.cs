@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class GameController : MonoBehaviour {
@@ -32,7 +33,7 @@ public class GameController : MonoBehaviour {
         {
             if (Input.GetKey(KeyCode.R))
             {
-                Application.LoadLevel(Application.loadedLevel);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
     }
