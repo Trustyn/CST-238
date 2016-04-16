@@ -2,10 +2,10 @@
 ![Opening Image](https://github.com/chadgreene/CST328/blob/master/OpeningSeq.PNG)
 
 #**Description**
-Space Shooter is a top down shooter similar to Asteroids.  A constant barrage of meteorites and enemy spaceships are sent at the player with a single mission to destroy. 
+Space Shooter is a top down shooter similar to Asteroids.  A constant barrage of meteorites and enemy spaceships are randomly spawned with the sole mission of annihilating the player.
 
 #**Technologies**
-I will be using the Unity tutorial Space Shooter as a base and extending the capabilities to conform to the standards of the class
+We will be using the Unity tutorial Space Shooter(From the Unity Learn Turorial set) as a base and extending the capabilities to conform to the standards of the class
 
 #**Screenshots**
 ![Gun Fire](https://github.com/chadgreene/CST328/blob/master/guns.PNG)
@@ -16,6 +16,11 @@ There will be 2 deliverables for the application the first will be an executable
 #**Contribution Guidelines**
 1. Chad Greene
 1. Branden Alder
+
+#**Inspiration for Project**
+**Chad Greene** - I am mostly interested in learing more about the Unity environment and what it has to offer.  I have a few projects in mind that I would like to develop using it.  At the moment I am most interested in android environment but would also like to see how the cross platform builds work.
+<br>
+**Branden Alder** - I am extreamly interested in learning the GUI aspect of programing and have dabbled into the QT world for my junior project, by doing so I was honestly not that big a fan which we then switched to Android Studio. But for a program like Unity it's almost like pure creation and the dabling I have done so far has definetly sparked interest. 
 
 #**Bugs and TODO list**
 1. Add splash screens for Entry, Exit and GameOver
