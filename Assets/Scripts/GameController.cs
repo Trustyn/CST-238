@@ -16,15 +16,18 @@ public class GameController : MonoBehaviour {
 
     private bool _restart, _gameOver, _alive;
     private DamageController _player;
+    private GameObject splash;
+    private Animator anim;
+    
 
     void Start()
     {
-        _restartText.text = _overText.text = "";
+        splash = GameObject.FindGameObjectWithTag("SplashScreen");
+        anim = gameObject.GetComponent<Animator>();
+        splash.SetActive(true);
+        _restartText.text = _overText.text = _scoreText.text = _experienceText.text = "";
         _restart = _gameOver = false;
-        StartCoroutine(SpawnWaves());
-        _playerObject = Instantiate(_playerObject) as GameObject;
-        _player = _playerObject.GetComponent<DamageController>();
-        UpdateScore();
+        
     }
 
     void Update()
@@ -66,5 +69,14 @@ public class GameController : MonoBehaviour {
         //Debug.Log(_player.Points);
         _scoreText.text = "Score: " + _player.Points;
         _experienceText.text = "Experience: " + _player.Experience;
+    }
+
+    public void StartGame() {
+        anim.SetTrigger("Play");
+        splash.SetActive(false);
+        StartCoroutine(SpawnWaves());
+        _playerObject = Instantiate(_playerObject) as GameObject;
+        _player = _playerObject.GetComponent<DamageController>();
+        UpdateScore();
     }
 }
