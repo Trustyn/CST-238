@@ -23,12 +23,11 @@ There will be 2 deliverables for the application the first will be an executable
 **Branden Alder** - I am extreamly interested in learning the GUI aspect of programing and have dabbled into the QT world for my junior project, by doing so I was honestly not that big a fan which we then switched to Android Studio. But for a program like Unity it's almost like pure creation and the dabling I have done so far has definetly sparked interest. 
 
 #**Bugs and TODO list**
-1. Add splash screens for Entry, Exit and GameOver
+1. Add splash screens for Entry, Replay and GameOver
 1. Add Power up collectors for player
-1. Add new levels
 1. Add new gun upgrades and weapons fire
 1. Allow AI more flexability
-1. Add thumb controls for android 
+1. Add thumb controls for android
 
 #**License**
 The MIT License (MIT)
