@@ -14,7 +14,7 @@ public class RandomRotator : MonoBehaviour {
     {
         float _multiplier = Random.Range(_multMin, _multMax);
         DamageController _dc = gameObject.GetComponent<DamageController>();
-        _dc._health = _dc._experience = _multiplier;
+        _dc._health = _dc._experience = 1;
         _dc._points = _multiplier * _points;
         rb = GetComponent<Rigidbody>();
         rb.angularVelocity = Random.insideUnitSphere * _multiplier;

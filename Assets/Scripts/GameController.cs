@@ -26,8 +26,7 @@ public class GameController : MonoBehaviour {
         anim = gameObject.GetComponent<Animator>();
         splash.SetActive(true);
         _restartText.text = _overText.text = _scoreText.text = _experienceText.text = "";
-        _restart = _gameOver = false;
-        
+        _restart = _gameOver = false;    
     }
 
     void Update()
