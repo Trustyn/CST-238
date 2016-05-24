@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour {
     private DamageController _player;
     private GameObject splash;
     private Animator anim;
-    
+    private AudioSource audio;
 
     void Start()
     {
@@ -26,7 +26,8 @@ public class GameController : MonoBehaviour {
         anim = gameObject.GetComponent<Animator>();
         splash.SetActive(true);
         _restartText.text = _overText.text = _scoreText.text = _experienceText.text = "";
-        _restart = _gameOver = false;    
+        _restart = _gameOver = false;
+        audio = gameObject.GetComponent <AudioSource>();    
     }
 
     void Update()
@@ -77,5 +78,10 @@ public class GameController : MonoBehaviour {
         _playerObject = Instantiate(_playerObject) as GameObject;
         _player = _playerObject.GetComponent<DamageController>();
         UpdateScore();
+    }
+
+    public void SpawnAmountSettings(int number)
+    {
+        _hazardCount = number;
     }
 }

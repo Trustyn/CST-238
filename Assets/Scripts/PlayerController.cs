@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour {
     private int _score;
     private Gun _gun;
 
+
+
     public int Score
     {
         get { return _score; }
@@ -28,6 +30,8 @@ public class PlayerController : MonoBehaviour {
     {
         get { return _experience; }
     }
+
+    public float Speed { get; set; }
 
 
     void Start()
