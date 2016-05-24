@@ -26,17 +26,12 @@ Branden Alder
 -Esc button pauses game
 -2 more astroid types
 -Astroids have spin, random spawn locations, varied travel speed.
--Settings menu allows user to change: Enemy Speed, Astroid Speed, 
- Player Speed, Player Fire Rate, Spawn Wait,
- # Enemy's per Wave, and Mute Music
+-Settings menu allows user to change: Volume, Wave Size
 -Expanded play field to encoumpass entire screen
 
 
 **Bugs and TODO list**
--Settings -Enemy Speed, Astroid Speed, 
- Player Speed, Player Fire Rate, Spawn Wait,
- # Enemy's per Wave, Mute Music
--Fix Trap
+-Fix Spawn enemy amount
 -Create windows download executable
 
 **Credits**
