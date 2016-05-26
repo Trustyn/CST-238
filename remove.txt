@@ -1,0 +1,24 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 3843-C5E1
+
+ Directory of C:\Users\Public\Documents\Unity Projects\Space Shooter
+
+05/25/2016  09:01 PM    <DIR>          .
+05/25/2016  09:01 PM    <DIR>          ..
+05/25/2016  08:54 PM                35 .gitignore
+03/17/2016  10:25 PM             5,398 Assembly-CSharp.csproj
+05/25/2016  08:54 PM    <DIR>          Assets
+05/25/2016  06:43 PM             7,774 CST238.CSharp.csproj
+05/25/2016  06:43 PM               915 CST238.sln
+04/01/2016  10:00 AM           366,637 guns.PNG
+05/25/2016  09:00 PM    <DIR>          Library
+03/15/2016  05:41 PM    <DIR>          obj
+04/01/2016  10:00 AM           311,577 OpeningSeq.PNG
+05/25/2016  09:00 PM    <DIR>          ProjectSettings
+05/25/2016  06:43 PM             2,360 README
+05/25/2016  06:43 PM             2,896 README.md
+05/25/2016  09:01 PM                 0 remove.txt
+05/25/2016  08:54 PM             8,110 Space Shooter.CSharp.csproj
+04/09/2016  12:05 PM               929 Space Shooter.sln
+              11 File(s)        706,631 bytes
+               6 Dir(s)  20,887,465,984 bytes free
