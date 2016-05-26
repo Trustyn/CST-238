@@ -13,12 +13,13 @@ public class GameController : MonoBehaviour {
     public float _startWait, _spawnWait, _waveWait;
 
     public int _hazardCount;
-
+    public GameObject _settingsScreen, _splashScreen;
     private bool _restart, _gameOver, _alive;
     private DamageController _player;
     private GameObject splash;
     private Animator anim;
     private AudioSource audio;
+    public Slider _spawns;
 
     void Start()
     {
@@ -27,7 +28,8 @@ public class GameController : MonoBehaviour {
         splash.SetActive(true);
         _restartText.text = _overText.text = _scoreText.text = _experienceText.text = "";
         _restart = _gameOver = false;
-        audio = gameObject.GetComponent <AudioSource>();    
+        audio = gameObject.GetComponent <AudioSource>();
+        _spawns.onValueChanged.AddListener(delegate { UpdateSpawnCount(); });
     }
 
     void Update()
@@ -84,4 +86,24 @@ public class GameController : MonoBehaviour {
     {
         _hazardCount = number;
     }
+
+    private void UpdateSpawnCount()
+    {
+        _hazardCount = (int)_spawns.value;
+    }
+
+    public void ShowSettings()
+    {
+        _splashScreen.SetActive(false);
+        _settingsScreen.SetActive(true);
+    }
+
+    public void CloseSettings()
+    {
+        _settingsScreen.SetActive(false);
+        _splashScreen.SetActive(true);
+    }
+
+
+
 }

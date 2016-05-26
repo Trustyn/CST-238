@@ -1,35 +1,42 @@
-#SPACE SHOOTER - CST 238 PROJECT
 ![Opening Image](https://github.com/chadgreene/CST328/blob/master/OpeningSeq.PNG)
 
-#**Description**
-Space Shooter is a top down shooter similar to Asteroids.  A constant barrage of meteorites and enemy spaceships are randomly spawned with the sole mission of annihilating the player.
+**Description**
+Space Shooter is a top down shooter similar to Asteroids.  A constant barrage of meteorites and enemy spaceships are sent at the player with a single mission to destroy. 
 
-#**Technologies**
-We will be using the Unity tutorial Space Shooter(From the Unity Learn Turorial set) as a base and extending the capabilities to conform to the standards of the class
+**Technologies**
+We will be using the Unity tutorial Space Shooter as a base and extending the capabilities to conform to the standards of the class
 
-#**Screenshots**
+**Screenshots**
+
 ![Gun Fire](https://github.com/chadgreene/CST328/blob/master/guns.PNG)
 
-#**Installation Instructions**
-There will be 2 deliverables for the application the first will be an executable for PC's.  Second an Android APK will be provided for Android powered devices.
+**Installation Instructions**
+There will be 2 deliverables for the application the first will be an executable for PC's.
 
-#**Contribution Guidelines**
-1. Chad Greene
-1. Branden Alder
+**Contribution Guidelines**
+Chad Greene
+Branden Alder
 
-#**Inspiration for Project**
-**Chad Greene** - I am mostly interested in learing more about the Unity environment and what it has to offer.  I have a few projects in mind that I would like to develop using it.  At the moment I am most interested in android environment but would also like to see how the cross platform builds work.
-<br>
-**Branden Alder** - I am extreamly interested in learning the GUI aspect of programing and have dabbled into the QT world for my junior project, by doing so I was honestly not that big a fan which we then switched to Android Studio. But for a program like Unity it's almost like pure creation and the dabling I have done so far has definetly sparked interest. 
+**Whats Changed from Original Tutorial**
+-Full code makeover to remove duplication. 
+-Player can level up
+-Level up's upgrade player weapon
+-SplashScreen with play and settings
+-Animation title
+-Esc button pauses game
+-2 more astroid types
+-Astroids have spin, random spawn locations, varied travel speed.
+-Settings menu allows user to change: Enemy's per Wave, and Mute Music
+-Expanded play field to encoumpass entire screen
 
-#**Bugs and TODO list**
-1. Add splash screens for Entry, Replay and GameOver
-1. Add Power up collectors for player
-1. Add new gun upgrades and weapons fire
-1. Allow AI more flexability
-1. Add thumb controls for android
 
-#**License**
+**Bugs and TODO list**
+
+
+**Credits**
+Stuff, People, and things.
+
+**License:**
 The MIT License (MIT)
 Copyright (c) 2016 Chad Greene
 
